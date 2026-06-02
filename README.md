@@ -8,81 +8,76 @@
 
 </p>
 
----
+<h1 align="center">🛒 Amazon E-Commerce ETL Pipeline</h1>
 
-## 📌 Gambaran Proyek
-
-Proyek ini bertujuan membangun **ETL pipeline** untuk mengolah dataset **Amazon E-Commerce** menggunakan **PySpark, Apache Airflow, Docker, dan MongoDB**.
-
-Pipeline digunakan untuk melakukan proses **Extract, Transform, dan Load (ETL)** terhadap data, mulai dari membaca dataset, melakukan transformasi data, hingga menyimpan hasil akhir ke database **MongoDB**.
-
-Seluruh proses dijalankan dalam environment berbasis **Docker** serta workflow orchestration menggunakan **Apache Airflow** untuk membantu automasi pipeline data.
-
----
-
-## 🎯 Tujuan Proyek
-
-- Melakukan proses **Extract, Transform, Load (ETL)** pada dataset Amazon E-Commerce  
-- Melakukan transformasi data menggunakan **PySpark**  
-- Menjalankan workflow pipeline menggunakan **Apache Airflow**  
-- Menyimpan hasil transformasi data ke **MongoDB**  
-- Menjalankan pipeline dalam environment berbasis **Docker**
+<p align="center">
+Building an ETL pipeline for Amazon E-Commerce data processing using PySpark, Apache Airflow, Docker, and MongoDB.
+</p>
 
 ---
 
 ## 🛠 Tech Stack
 
-| Tools | Fungsi |
-|--------|--------|
-| PySpark | Pemrosesan dan transformasi data |
-| Apache Airflow | Workflow orchestration pipeline |
-| Docker | Containerization environment |
-| MongoDB | Penyimpanan hasil ETL |
-| Python | Bahasa pemrograman utama |
+| Tools | Purpose |
+|--------|---------|
+| PySpark | Data processing and transformation |
+| Apache Airflow | Workflow orchestration |
+| Docker | Containerized environment |
+| MongoDB | ETL output storage |
+| Python | Primary programming language |
 
 ---
 
-## ⚙️ Alur Pengerjaan
+## 📌 Project Overview
 
-1. Membaca dataset Amazon E-Commerce (*extract process*)  
-2. Membersihkan dan mentransformasi data menggunakan **PySpark**  
-3. Menjalankan workflow ETL menggunakan **Apache Airflow**  
-4. Menjalankan environment menggunakan **Docker**  
-5. Menyimpan hasil transformasi data ke **MongoDB**  
-6. Melakukan validasi hasil load data
+This project focuses on building an **ETL (Extract, Transform, Load) pipeline** for processing the **Amazon E-Commerce dataset** using **PySpark, Apache Airflow, Docker, and MongoDB**.
 
----
+The pipeline performs data processing tasks including reading datasets, transforming raw data, and storing processed results into **MongoDB**.
 
-## 📦 Data yang Digunakan
-
-Dataset Amazon E-Commerce digunakan untuk melakukan proses transformasi data pada beberapa atribut produk marketplace.
-
-| Data | Deskripsi |
-|------|------------|
-| Product Name | Nama produk |
-| Category | Kategori produk |
-| Price | Harga produk |
-| Rating | Rating produk |
-| Review | Review pelanggan |
+The workflow is orchestrated using **Apache Airflow**, while the entire environment runs inside **Docker** containers to support reproducible and automated data processing.
 
 ---
 
-## ▶️ Cara Menjalankan
+## 🎯 Project Objectives
 
-1. Jalankan container menggunakan **Docker**  
-2. Jalankan workflow melalui **Apache Airflow**  
-3. Proses ETL akan melakukan extract, transform, dan load data  
-4. Hasil transformasi data akan tersimpan pada **MongoDB**
-
----
-
-## 📈 Hasil Proyek
-
-Pipeline berhasil melakukan proses ETL terhadap dataset Amazon E-Commerce mulai dari pengambilan data, transformasi menggunakan **PySpark**, hingga penyimpanan data ke **MongoDB** melalui workflow orchestration menggunakan **Apache Airflow** dalam environment berbasis **Docker**.
+- Perform **Extract, Transform, Load (ETL)** processes on the Amazon E-Commerce dataset  
+- Transform raw data using **PySpark**  
+- Run ETL workflow orchestration using **Apache Airflow**  
+- Store transformed data into **MongoDB**  
+- Execute the pipeline within a **Docker-based environment**
 
 ---
 
-## 👨‍💻 Author
+## ⚙️ Workflow
+
+1. Read the Amazon E-Commerce dataset (*extract process*)  
+2. Clean and transform data using **PySpark**  
+3. Run ETL workflow orchestration using **Apache Airflow**  
+4. Execute the environment using **Docker**  
+5. Store transformed results into **MongoDB**  
+6. Validate the loaded data
+
+---
+
+## ▶️ How to Run
+
+1. Start the environment using **Docker**  
+2. Run workflow orchestration through **Apache Airflow**  
+3. Execute the ETL process (extract, transform, load)  
+4. Verify transformed data stored in **MongoDB**
+
+---
+
+## 📈 Project Outcome
+
+The pipeline successfully performs ETL processes on the Amazon E-Commerce dataset, including data extraction, transformation using **PySpark**, and loading processed results into **MongoDB**, orchestrated through **Apache Airflow** in a **Docker-based environment**.
+
+---
+
+## 📬 Contact
 
 **Mardi Wicaksana**  
-Data Analyst Enthusiast | Data Engineering | PySpark | Airflow | ETL Pipeline
+Data Analyst Enthusiast
+
+- GitHub: [MardiGTX](https://github.com/MardiGTX)  
+- LinkedIn: [Mardi Wicaksana](https://www.linkedin.com/in/mardi-wicaksana-505105409/)
